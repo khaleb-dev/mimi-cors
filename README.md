@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/Rob--W/cors-anywhere.svg?branch=master)](https://travis-ci.org/Rob--W/cors-anywhere)
-[![Coverage Status](https://coveralls.io/repos/github/Rob--W/cors-anywhere/badge.svg?branch=master)](https://coveralls.io/github/Rob--W/cors-anywhere?branch=master)
+[![Build Status](https://travis-ci.org/KhalebOBrien/mimi-cors.svg?branch=master)](https://travis-ci.org/KhalebOBrien/mimi-cors)
+[![Coverage Status](https://coveralls.io/repos/github/KhalebOBrien/mimi-cors/badge.svg?branch=master)](https://coveralls.io/github/KhalebOBrien/mimi-cors?branch=master)
 
 **Mimi-CORS** is a NodeJS proxy which adds CORS headers to the proxied request.
 
@@ -76,7 +76,7 @@ If you're using jQuery, you can also use the following code **instead of** the p
 ```javascript
 jQuery.ajaxPrefilter(function(options) {
     if (options.crossDomain && jQuery.support.cors) {
-        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+        options.url = 'https://mimi-cors.herokuapp.com/' + options.url;
     }
 });
 ```
